@@ -64,3 +64,11 @@ The complete implementation is available in:
 
 - 💻 [GitHub Notebook](./notebooks/smartphone_addiction_prediction.ipynb)
 - 🚀 [Open in Google Colab](https://colab.research.google.com/drive/16auEfz-MSmdQYJ5D4-thcbjsucATCnAp?usp=sharing)
+
+
+## 🏆 Kaggle
+
+This project was developed and evaluated as part of the **Predicting Smartphone Addiction** Kaggle competition.
+
+- 🏆 [View Kaggle Competition](https://www.kaggle.com/competitions/playground-series-s6e8/overview)
+- 🚀 [Open in Google Colab](https://colab.research.google.com/drive/16auEfz-MSmdQYJ5D4-thcbjsucATCnAp?usp=sharing)
