@@ -53,10 +53,13 @@ The goal of this project is to use machine learning to identify patterns in user
 - `stress_level`
 - `academic_work_impact`
 
-Target:
+## 📈 Final Result
 
-```text
-addicted_label
+The final verified E49 model achieved:
+
+**Overall OOF ROC-AUC: 0.964998572**
+
+The final submission contains **296,302 predictions** for the Kaggle test dataset.
 
 ## 📓 Notebook
 
