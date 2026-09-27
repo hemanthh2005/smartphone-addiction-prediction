@@ -1,33 +1,66 @@
 # Smartphone Addiction Prediction
 
-Machine learning project for predicting smartphone addiction from smartphone usage patterns and behavioral features.
+Machine Learning project for predicting smartphone addiction based on users' smartphone usage patterns, behavioral factors, and lifestyle features.
 
 ## 📌 Project Overview
 
-This project focuses on predicting whether a user is likely to be classified as addicted based on smartphone usage and behavioral characteristics.
+This project was developed as part of the Kaggle competition **Predicting Smartphone Addiction**.
 
-The project was developed as part of a Kaggle machine learning competition and includes exploratory data analysis, preprocessing, feature engineering, multiple model experiments, cross-validation, specialist modeling, and ensemble evaluation.
+The objective is to build a machine learning model that predicts whether a user is likely to be addicted to smartphones based on behavioral and usage-related features.
 
-The main objective was to build a robust binary classification model and evaluate it using **ROC-AUC**.
+The project focuses on:
 
----
+- Data preprocessing
+- Exploratory data analysis
+- Feature engineering
+- Machine learning model development
+- Cross-validation
+- ROC-AUC evaluation
+- Model experimentation
+- Kaggle prediction generation
 
 ## 🎯 Problem Statement
 
-Smartphone usage generates several measurable behavioral signals such as:
+Smartphone usage has become an important part of daily life. Excessive screen time, frequent application usage, social media usage, and changes in sleep and study patterns can be associated with smartphone addiction.
 
-- Daily screen time
-- Social media usage
-- Gaming time
-- Work/study time
-- Sleep duration
-- Notifications
-- Application opens
-- Weekend screen time
-- Stress level
-- Academic/work impact
+The goal of this project is to use machine learning to identify patterns in user behavior and predict the probability of smartphone addiction.
 
-The goal is to use these signals to predict the target variable:
+## 📊 Dataset
+
+### Training Dataset
+
+- Rows: **691,369**
+- Features: **13**
+- Target: `addicted_label`
+
+### Test Dataset
+
+- Rows: **296,302**
+- Features: **13**
+
+### Features
+
+- `age`
+- `daily_screen_time_hours`
+- `social_media_hours`
+- `gaming_hours`
+- `work_study_hours`
+- `sleep_hours`
+- `notifications_per_day`
+- `app_opens_per_day`
+- `weekend_screen_time`
+- `gender`
+- `stress_level`
+- `academic_work_impact`
+
+Target:
 
 ```text
 addicted_label
+
+## 📓 Notebook
+
+The complete implementation is available in:
+
+- 💻 [GitHub Notebook](./notebooks/smartphone_addiction_prediction.ipynb)
+- 🚀 [Open in Google Colab](https://colab.research.google.com/drive/16auEfz-MSmdQYJ5D4-thcbjsucATCnAp?usp=sharing)
